@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'TTLakesRegular';
+    src: url("../fonts/TTLakes-Regular.ttf/"),
+         url("../fonts/TTLakes-Regular.eot") format("eot"), 
+         url("../fonts/TTLakes-Regular.woff") format("woff"), 
+         url("../fonts/TTLakes-Regular.ttf") format("truetype");
+         
+         font-weight: 400;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTLakesMedium';
+    src: url("../fonts/TTLakes-Medium.ttf"),
+         url("../fonts/TTLakes-Medium.eot") format("eot"), 
+         url("../fonts/TTLakes-Medium.woff") format("woff"), 
+         url("../fonts/TTLakes-Medium.ttf") format("truetype");
+         
+         font-weight: 500;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTLakesBold';
+    src: url("../fonts/TTLakes-Bold.ttf"),
+         url("../fonts/TTLakes-Bold.eot") format("eot"), 
+         url("../fonts/TTLakes-Bold.woff") format("woff"), 
+         url("../fonts/TTLakes-Bold.ttf") format("truetype");
+         
+         font-weight: 700;
+         font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.body{
+    background-color: #F8F8F8;
+    min-width: 320px;
+    min-height: 234px;
+    overflow: hidden;
+}
+
+.swiper-pagination {
+    position: unset;
+}
+
+.swiper-pagination-bullet {
+    background: #DDDDDD;
+}
+
+.swiper-pagination-bullet-active {
+    background: #B5B6BC;
+}
+
+.button_show {
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 320px;
+    height: 80px;
+    background:linear-gradient(to right, #F8F8F8
+    , #FFFFFF);
+}
+
+.title {
+    margin: 0;
+    margin-left: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: TTLakesRegular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: #7E7E82;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation_list {
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+/*.navigation_list::after {
+
+}*/
+
+button {
+    border: none;
+    background: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.button_more {
+    font-family: 'TTLakesMedium';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    margin-left: 24px;
+    margin-bottom: 31px;
+}
+
+.button_hide {
+    margin-top: 17px;
+    margin-bottom: 14px;
+}
+
+.button_show::before {
+    display: inline-block;
+    content: url(icon/expand.png);
+    transform: translateY(20%);
+}
+
+.button_hide::before {
+    display: inline-block;
+    content: url(icon/expand.png);
+    transform: rotate(180deg);
+}
+
+
+
+.navigation_list-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    Width: 224px;
+    Height: 72px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    margin-left: 24px;
+    margin-right: auto;
+    margin-bottom: 16px;
+    background-color: #FFFFFF;
+}
+
+li {
+    list-style-type: none;
+}
+.brands_button {
+    background-image: url('./icon/go.png');
+    margin-left: auto;
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.brands_image {
+    margin-left: 16px;
+}
+
+.hide {
+    display:none;
+}
+
+@media (min-width: 768px) {
+    
+    .button_more {
+        display: inline-block;
+    }
+
+    .hide {
+        display:none;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+    
+    .body{
+        min-height: 322px;
+    }
+    .header {
+        height: 56px;
+    }
+    .navigation_list {
+        flex-wrap: wrap;
+        margin-top: 24px;
+    }
+    .hide_tablet {
+        display: none;
+    }
+    .hide_pc {
+        display: none;
+    }
+  }
+
+@media (min-width: 1000px) {
+    .hide_tablet {
+        display: flex;
+    }
+}
+
+@media (min-width: 1120px) {
+    .navigation_list-item {
+        Width: 240px;
+        margin-left: 32px;
+    }
+
+    .button_more {
+        margin-left: 32px;
+    }
+  }
+
+@media (min-width: 1370px) {
+    .hide_pc {
+        display: flex;
+    }
+    .navigation_list-item {
+        margin-right: 0;
+    }
+}
