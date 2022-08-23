@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'TTLakesRegular';
-    src: url("fonts/TTLakes-Regular.ttf/"),
-         url("fonts/TTLakes-Regular.eot") format("eot"), 
-         url("fonts/TTLakes-Regular.woff") format("woff"), 
-         url("fonts/TTLakes-Regular.ttf") format("truetype");
+    src: url("./fonts/TTLakes-Regular.ttf/"),
+         url("./fonts/TTLakes-Regular.eot") format("eot"), 
+         url("./fonts/TTLakes-Regular.woff") format("woff"), 
+         url("./fonts/TTLakes-Regular.ttf") format("truetype");
          
          font-weight: 400;
          font-style: normal;
@@ -11,10 +11,10 @@
 
 @font-face {
     font-family: 'TTLakesMedium';
-    src: url("fonts/TTLakes-Medium.ttf"),
-         url("fonts/TTLakes-Medium.eot") format("eot"), 
-         url("fonts/TTLakes-Medium.woff") format("woff"), 
-         url("fonts/TTLakes-Medium.ttf") format("truetype");
+    src: url("./fonts/TTLakes-Medium.ttf"),
+         url("./fonts/TTLakes-Medium.eot") format("eot"), 
+         url("./fonts/TTLakes-Medium.woff") format("woff"), 
+         url("./fonts/TTLakes-Medium.ttf") format("truetype");
          
          font-weight: 500;
          font-style: normal;
@@ -22,10 +22,10 @@
 
 @font-face {
     font-family: 'TTLakesBold';
-    src: url("fonts/TTLakes-Bold.ttf"),
-         url("fonts/TTLakes-Bold.eot") format("eot"), 
-         url("fonts/TTLakes-Bold.woff") format("woff"), 
-         url("fonts/TTLakes-Bold.ttf") format("truetype");
+    src: url("./fonts/TTLakes-Bold.ttf"),
+         url("./fonts/TTLakes-Bold.eot") format("eot"), 
+         url("./fonts/TTLakes-Bold.woff") format("woff"), 
+         url("./fonts/TTLakes-Bold.ttf") format("truetype");
          
          font-weight: 700;
          font-style: normal;
