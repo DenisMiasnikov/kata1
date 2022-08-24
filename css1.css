@@ -98,7 +98,7 @@ a {
     height: 40px;
     width: 40px;
     
-    background-image: url('icon/chat.png');
+    background-image: url('icon/chat.svg');
 }
 
 .footer_button--profile {
@@ -107,14 +107,14 @@ a {
     height: 40px;
     width: 40px;
     
-    background-image: url('icon/profile.png');
+    background-image: url('icon/profile.svg');
 }
 
 .footer_button--call {
     height: 40px;
     width: 40px;
     
-    background-image: url('icon/call.png');
+    background-image: url('icon/call.svg');
 }
 
 .footer_contact {
@@ -167,14 +167,14 @@ a {
     height: 40px;
     width: 40px;
     margin-left: 24px;
-    background-image: url('icon/burger—1.png');
+    background-image: url('icon/burger_1.svg');
 }
 
 .header_search {
     margin-right: 24px;
     height: 40px;
     width: 40px;
-    background-image: url('icon/search.png');
+    background-image: url('icon/search.svg');
 }
 
 .navigation {
