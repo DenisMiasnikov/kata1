@@ -122,13 +122,13 @@ button {
 
 .button_show::before {
     display: inline-block;
-    content: url(icon/expand.png);
+    content: url(icon/expand.svg);
     transform: translateY(20%);
 }
 
 .button_hide::before {
     display: inline-block;
-    content: url(icon/expand.png);
+    content: url(icon/expand.svg);
     transform: rotate(180deg);
 }
 
@@ -152,7 +152,7 @@ li {
     list-style-type: none;
 }
 .brands_button {
-    background-image: url('./icon/go.png');
+    background-image: url('./icon/go.svg');
     margin-left: auto;
     margin-right: 16px;
     width: 40px;
