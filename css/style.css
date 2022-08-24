@@ -534,7 +534,7 @@ a {
 }
 
 .article_readmore::before {
-  content: url("..//icon/expand.png");
+  content: url("..//icon/expand.svg");
   background: content no-repeat;
 }
 .article_readmore {
@@ -847,13 +847,13 @@ a {
     }
 
     .header-pc_button--request::after {
-      content: url("..//icon/repair.png");
+      content: url("..//icon/repair.svg");
       background: content no-repeat ;
       margin-left: 9px;
     }
 
     .header-pc_button--chesk::after {
-      content: url("..//icon/checkstatus.png");
+      content: url("..//icon/checkstatus.svg");
       background: content no-repeat ;
       margin-left: 9px;
     }
